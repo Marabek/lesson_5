@@ -1,0 +1,39 @@
+.main_wrapper {
+    min-height: 280px;
+    max-width: 374px;
+    margin: 15% auto;
+    text-align: center;
+    border-radius: 8px;
+    background: #fff;
+    box-shadow: 0 24px 24px rgba(0, 0, 0, .12);
+    padding: 24px;
+    font-family: "Tahoma", sans-serif;
+}
+
+.counter-title {
+    margin-bottom: 40px;
+    font-size: 23px;
+}
+
+button {
+    max-width: 90px;
+    width: 100%;
+    outline: none;
+    background: none;
+    border: 2px solid lightblue;
+    padding: 10px;
+    cursor: pointer;
+    margin-right: 20px;
+    font-size: 15px;
+    font-weight: bolder;
+}
+button:hover{
+    transition: 0.5s;
+    background: lightblue;
+    color: black;
+    box-shadow: 0px 0px 40px lightblue;
+}
+.last{
+    max-width: 203px;
+    margin-top: 20px;
+}
